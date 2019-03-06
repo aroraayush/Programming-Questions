@@ -1,5 +1,5 @@
 // https://leetcode.com/problems/add-to-array-form-of-integer/
-
+// OneNote notebook : https://1drv.ms/u/s!Al8jX5-HB-eXgYcEZHkf-_cZZeb8Cg
 (()=>{
 	let a = [1,2,0,0]
 	global.b = [3,4]
