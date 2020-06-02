@@ -7,9 +7,10 @@ class Node:
 class Solution:
     # Checking if 2 trees are equal
     def is_same(self, n1 : Node, n2: Node) -> bool:
-        if n1 == None or n2 == None:
+        if n1 == None and n2 == None:
             return True
-        print('n1.val: ', n1.val, 'n2.val: ', n2.val)
+        if n1 == None or n2 == None:
+            return False
         # Condition to check
         # Values should be same and left and right 
         # nodes should be with same values
